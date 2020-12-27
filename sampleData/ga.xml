@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GroupAddress-Export xmlns="http://knx.org/xml/ga-export/01">
+  <GroupRange Name="System" RangeStart="1" RangeEnd="55" Description="Systemfunktionen">
+    <GroupAddress Name="FiatLux" Address="1" DPTs="DPT-1" />
+    <GroupAddress Name="wind alarm" Address="2" DPTs="DPST-1-1" />
+    <GroupAddress Name="Alles Licht aus" Address="3" DPTs="DPST-1-1" />
+  </GroupRange>
+  <GroupRange Name="Licht" RangeStart="56" RangeEnd="1079">
+    <GroupRange Name="EG" RangeStart="56" RangeEnd="410">
+      <GroupAddress Name="EG Licht Schalten" Address="56" DPTs="DPST-1-1" />
+      <GroupAddress Name="EG Licht Status" Address="57" DPTs="DPST-1-1" />
+    </GroupRange>
+    <GroupRange Name="Jalousie" RangeStart="1080" RangeEnd="2103">
+    <GroupRange Name="EG" RangeStart="1080" RangeEnd="1434">
+      <GroupAddress Name="EG Fahren" Address="1080" DPTs="DPT-1" />
+      <GroupAddress Name="EG Stop" Address="1081" DPTs="DPT-1" />
+      <GroupAddress Name="EG Lamelle oO" Address="1082" DPTs="DPST-5-1" />
+      <GroupAddress Name="EG Lamelle Status" Address="1083" DPTs="DPST-5-1" />
+    </GroupRange>
+  </GroupRange>
+  <GroupRange Name="test" RangeStart="2104" RangeEnd="2113" />
+</GroupAddress-Export>
